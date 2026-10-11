@@ -1,0 +1,28 @@
+{
+  "name": "proc-lens",
+  "version": "1.0.0",
+  "description": "Zero-overhead terminal kernel telemetry and Linux process hierarchy profiler",
+  "type": "module",
+  "main": "src/core.js",
+  "bin": {
+    "proc-lens": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/smoke.js",
+    "bench": "node test/bench.js"
+  },
+  "keywords": [
+    "linux",
+    "procfs",
+    "monitoring",
+    "process-manager",
+    "terminal",
+    "zero-dependencies"
+  ],
+  "author": "Engineering Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
